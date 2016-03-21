@@ -1,0 +1,219 @@
+p {
+	font-family: georgia, arial, sans-serif;
+	line-height: 1.5em;
+	margin-right: 1em;
+	margin-left: 1em;}
+p.Shepherd {
+	font-family: georgia, arial, sans-serif;
+	line-height: 1.5em;
+	margin-right: 1em;
+	margin-left: 1em;
+	text-indent: 1.5em;}
+p.Inn {
+	font-family: georgia, arial, sans-serif;
+	line-height: 1.5em;
+	margin-left: 1.2em;
+	margin-right: 1em;
+	font-size: 130%;
+	text-indent: 1.5em;
+	margin-top: 10px;}
+p.Daycare {
+	font-family: georgia, arial, sans-serif;
+	line-height: 1.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	font-size: 130%;
+	text-align: justify;
+	text-indent: 1.5em;}
+h1 {
+	font-family: georgia, arial, sans-serif;
+	margin-left: 1em;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	text-align: left;
+	}
+h2 {
+	font-family: georgia, arial, sans-serif;
+	margin-left: 1em;
+	margin-right: 2em;
+	margin-bottom: 0px;}
+h2.center { 
+	font-family: georgia, arial, sans-serif;
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;}
+h2.middle {
+	font-family: georgia, arial, sans-serif;
+	text-align: center;}
+h2.indent {
+	text-indent: 1.5em;}
+h3 {
+	font-family: georgia, arial, sans-serif;
+	margin-left: 1em;
+	margin-right: 2em;
+	margin-bottom: 0px;}
+#wrapper {
+	width: 820px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #d9b343;
+	border: thin solid;}
+#banner {
+	margin: 10px 10px 0px;
+	width: 798px;
+	height: 175px;
+	border: thin solid;
+	border-bottom: none;
+	text-align: center;}
+#sitebanner {
+	margin: 10px 10px 0px;
+	width: 798px;
+	height: 175px;
+	border: thin solid;
+	text-align: center;}
+#navigation {
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 798px;
+	height: 45px;
+	background-color: #f28c3a;
+	border: thin solid;}
+#sidebar {
+	text-align: center;
+	margin: 89px 10px 10px;
+	width: 200px;
+	min-height: 500px;
+	background-color: #bf3f34;
+	border: thin solid;
+	float: right;}
+#sidebar2 {
+	text-align: center;
+	margin: 0px 10px 10px;
+	width: 200px;
+	height: 500px;
+	background-color: #bf3f34;
+	border: thin solid;
+	float: right;}
+#sidebar3 {
+	text-align: center;
+	margin: 10px;
+	width: 200px;
+	height: 500px;
+	background-color: #bf3f34;
+	border: thin solid;
+	float: right;}
+#main {
+	margin: 89px 10px 10px;
+	width: 586px;
+	min-height: 500px;
+	background-color: #fff;
+	border: thin solid;}
+#main2 {
+	margin: 10px;
+	width: 586px;
+	min-height: 500px;
+	background-color: #fff;
+	border: thin solid;}
+#Locationbar {
+	text-align: center;
+	margin: 89px 10px 10px;
+	width: 200px;
+	height: 526px;
+	background-color: #bf3f34;
+	border: thin solid;
+	float: right;}
+#storysbar {
+	text-align: center;
+	margin: 10px;
+	width: 200px;
+	height: 569px;
+	background-color: #bf3f34;
+	border: thin solid;
+	float: right;}
+#homepagemain {
+	margin: 89px 10px 10px;
+	width: 798px;
+	min-height: 500px;
+	background-color: #fff;
+	border: thin solid;
+	text-align: center;}
+#sitemapmain {
+	margin: 10px;
+	width: 798px;
+	background-color: #fff;
+	border: thin solid;
+	text-align: center;}
+#footer {
+	margin: 10px;
+	width: 798px;
+	height: 75px;
+	background-color: #038c7f;
+	border: thin solid black;
+	clear: both;}
+#footerfix {
+	margin-top: -45px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	width: 798px;
+	height: 50px;
+	background-color: #038c7f;
+	border: thin solid black;
+	clear: both;}
+ul#navlist {
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 15px;}
+ul#navlist li {
+	display: inline;}
+ul#navlist li a {
+	color: white;
+	margin-right: 15px;
+	line-height: 1.7em;
+	text-decoration: none;}
+ul#navlist li a:visited {
+	color: #00ffff;}
+ul#navlist li a:hover {
+	text-decoration: underline;}
+ul#open {
+	color: black;
+	font-weight: bold;}
+ul#site {
+	text-align: left;
+	font-size: 150%;
+	line-height: 1.8em;
+	font-family: georgia, arial, sans-serif;}
+/*Fixes spacing problem caused by the open class*/
+.openfix {
+	margin-left: 15px;}
+body {
+	background-image: url(stars.gif);}
+a.daycare {
+	margin-left: 2em;
+	margin-right: 2em;
+	font-family: georgia, arial, sans-serif;
+	font-size: 150%;
+	line-height: 1.8em;
+	text-align: center;}
+img.space {
+	margin-top: 5px;
+	margin-left: 9px;
+	border: none;}
+img.float {
+	float: left;
+	margin-top: 5px;
+	margin-left: 9px;
+	border: none;}
+img.active {
+	float: left;
+	margin-top: 5px;
+	margin-right: 34px;
+	margin-left: 43px;
+	border: none;}
+img.float2 {
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	marigin-right: 5px;
+	border: none;}
+

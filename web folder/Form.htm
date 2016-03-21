@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>User Feedback Form</title>
+		<style type="text/css">
+			h1 {
+				text-align: center;
+				border-bottom: solid thin;
+				padding-bottom: 10px;}
+			ul.list {
+				list-style-type: none;
+				margin-left: 0;}
+			p.space {
+				margin-top: 40px;}
+		</style>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	</head>
+	<body>
+		<h1>Please Fill Out this brief questionnaire to help us improve our website:</h1>
+		<form action="enter url here" method="post">
+			<p> Tell us who you are:</p>
+			<p>
+				<label class="username" for="First_Name">First Name:</label>
+				<input type="text" name="firstname" id="FirstName" size="35" maxlength="35"/>
+			</p>
+			<p>
+				<label class="username" for="Last_Name">Last Name:</label>
+				<input type="text" name="lastname" id="LastName" size="35" maxlength="35"/>
+			</p>
+			<p class="space">Did you find the information you were looking for?</p>
+			<p>
+				<label for="Yes">Yes</label>
+				<input type="radio" name="info" value="yes" id="Yes"/>
+				<label for="No">No</label>
+				<input type="radio" name="info" value="no" id="No"/>
+			</p>
+			<p class="space">How easy did you find it to navigate to the information you were trying to find?</p>
+			<ul class="list">
+				<li>
+				<input type="radio" name="navigate" value="extremely" id="Extremely"/>
+				<label for="Extremely">Extremely Easy</label>
+				</li>
+				<li>
+				<input type="radio" name="navigate" value="easy" id="Easy"/>
+				<label for="Easy">Easy</label>
+				</li>
+				<li>
+				<input type="radio" name="navigate" value="somewhat" id="Somewhat"/>
+				<label for="Somewhat">Somewhat Easy</label>
+				</li>
+				<li>
+				<input type="radio" name="navigate" value="not" id="Not"/>
+				<label for="Not">Not Easy</label>
+				</li>
+				<li>
+				<input type="radio" name="navigate" value="hard" id="Hard"/>
+				<label for="Hard">Hard/Did Not Find</label>
+				</li>
+			</ul>
+			<p class="space">Would you recommend this website and/or business to a friend?</p>
+			<p>
+				<label for="Yes">Yes</label>
+				<input type="radio" name="recommend" value="yes" id="Yes"/>
+				<label for="No">No</label>
+				<input type="radio" name="recommend" value="no" id="No"/>
+			</p>
+			<p class="space">How attractive did you find this website?<p>
+			<ul class="list">
+				<li>
+				<input type="radio" name="attractive" value="very" id="Very"/>
+				<label for="Extremely">Extremely</label>
+				</li>
+				<li>
+				<input type="radio" name="attractive" value="very" id="Very"/>
+				<label for="Very">Very</label>
+				</li>
+				<li>
+				<input type="radio" name="attractive" value="somewhat" id="Somewhat"/>
+				<label for="Somewhat">Somewhat</label>
+				</li>
+				<li>
+				<input type="radio" name="attractive" value="nv" id="NV"/>
+				<label for="NV">Not Very</label>
+				</li>
+				<li>
+				<input type="radio" name="attractive" value="not" id="Not"/>
+				<label for="Not">Not At All</label>
+				</li>
+			</ul>
+			<p class="space">Compared to similar websites, how would you rate this one?</p>
+			<ul class="list">
+				<li>
+				<input type="radio" name="compare" value"farabvavrg" id="FarAbvAvrg"/>
+				<label for="FarAbvAvrg">Far Above Average</label>
+				</li>
+				<li>
+				<input type="radio" name="compare" value"abvavrg" id="AbvAvrg"/>
+				<label for="AbvAvrg">Above Average</label>
+				</li>
+				<li>
+				<input type="radio" name="compare" value"avrg" id="Avrg"/>
+				<label for="Avrg">About Average</label>
+				</li>
+				<li>
+				<input type="radio" name="compare" value"blwavrg" id="BlwAvrg"/>
+				<label for="BlwAvrg">Below Average</label>
+				</li>
+				<li>
+				<input type="radio" name="compare" value"farblwavrg" id="FarBlwAvrg"/>
+				<label for="FarBlwAvrg">Far Below Average</label>
+				</li>
+			</ul>
+			<p class="space">Please tell us what, if anything, we can do to improve this website:</p>
+			<p>
+				<textarea name="improve" rows="10" cols="50">Enter improvements we can make here...</textarea>
+			</p>
+			<p>
+				<input type="submit" value="Submit"/>
+				<input type="reset" value="Clear the form"/>
+				<a href="index.htm">Back To Site</a>
+			</p>
+		</form>
+	</body>
+</html>
